@@ -1,0 +1,9 @@
+package main;
+
+public class Conversor {
+	
+	public static void main(String[] args) {
+		char ch = 'A';
+		System.out.println((int)ch);
+	}
+}
