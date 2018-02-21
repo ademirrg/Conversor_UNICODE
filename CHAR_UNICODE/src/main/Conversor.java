@@ -17,6 +17,10 @@ public class Conversor {
 			JOptionPane.showMessageDialog(null, "O campo não pode estar em branco!", "ERRO", JOptionPane.ERROR_MESSAGE);
 			main(new String[]{});
 		}
+		else if(str.length()>25) {
+			JOptionPane.showMessageDialog(null, "O campo pode receber apenas 25 caracteres!", "ERRO", JOptionPane.ERROR_MESSAGE);
+			main(new String[]{});
+		}
 		
 		campo = str.split("");
 		int soma = 0;
