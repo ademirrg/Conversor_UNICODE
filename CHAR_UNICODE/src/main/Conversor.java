@@ -14,7 +14,7 @@ public class Conversor {
 			System.exit(0);
 		}
 		else if(str.length()==0) {
-			JOptionPane.showMessageDialog(null, "O campo não poder ser em branco!", "ERRO", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "O campo não pode estar em branco!", "ERRO", JOptionPane.ERROR_MESSAGE);
 			main(new String[]{});
 		}
 		
